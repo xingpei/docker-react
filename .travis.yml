@@ -10,7 +10,7 @@ script:
 deploy:
   edge: true
   provider: elasticbeanstalk
-  region: "us-wewt-2"
+  region: "us-west-2"
   app: "docker-test"
   env: "DockerTest-env"
   bucket_name: "elasticbeanstalk-us-west-2-739939173819"
